@@ -16,7 +16,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Hme
+ * @author Abdelrahman , Gamal , pola
  */
 public class GUI {
 
@@ -25,10 +25,7 @@ public class GUI {
     public JLabel folderText3;
 
     public JLabel noteName;
-    /*
-    public JLabel labelText4;
-    public JLabel labelLext5;
-     */
+  
     public JLabel labelFile11, labelFile12, labelFile13;
     public JLabel labelFile21, labelFile22, labelFile23;
     public JLabel labelFile31, labelFile32, labelFile33;
@@ -343,15 +340,7 @@ public class GUI {
                     JOptionPane.showMessageDialog(frame, "The Name contain invalid characters !" , "Folder", JOptionPane.INFORMATION_MESSAGE);
                 }
                 
-                /* if(c==4){
-                     name4=f1.getText();
-                     labelText4 = new JLabel(name4);
-                     labelText4.setBounds(200, 200, 200, 90);
-                     labelText4.setVisible(true);
-                     f.add(labelText4);
-                    
-                }
-                 */
+             
 
                 folderText.setIcon(new ImageIcon("C:\\Users\\dell\\Desktop\\fol.png"));
                 folderText2.setIcon(new ImageIcon("C:\\Users\\dell\\Desktop\\fol.png"));
@@ -734,18 +723,7 @@ public class GUI {
             }
 
 
-            /* // TODO Auto-generated method stub
-                if(x==1){
-                    labelText.setVisible(false);
-                }
-                if(x==2){
-                    labelText2.setVisible(false);
-                }
-                if(x==3){
-                    labelText3.setVisible(false);
-                }
-               
-             */
+          
         }
         );
 
