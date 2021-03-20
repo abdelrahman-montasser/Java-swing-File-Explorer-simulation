@@ -3,6 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+// ***IMPORTANT*** Change the path of the Icon With Your own path. in line (351-361) 
+
 package test;
 
 import java.awt.TextField;
@@ -340,8 +343,11 @@ public class GUI {
                     JOptionPane.showMessageDialog(frame, "The Name contain invalid characters !" , "Folder", JOptionPane.INFORMATION_MESSAGE);
                 }
                 
+                
              
-
+                // ***IMPORTANT*** Change the path of the Icon With Your own path.
+                
+                
                 folderText.setIcon(new ImageIcon("C:\\Users\\dell\\Desktop\\fol.png"));
                 folderText2.setIcon(new ImageIcon("C:\\Users\\dell\\Desktop\\fol.png"));
                 folderText3.setIcon(new ImageIcon("C:\\Users\\dell\\Desktop\\fol.png"));
